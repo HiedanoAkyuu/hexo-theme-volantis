@@ -87,27 +87,24 @@ cover:
     archive: true
     others: false # can be written in front-matter 'cover: true'
   logo: # https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/256/google_logo.png
-  title: Volantis
-  subtitle: 'A Wonderful Theme for Hexo'
+  title: 欢迎来到憧憬幻想乡的人的网站
+  subtitle:
   search: # search bar placeholder
   features:
-    - name: 文档
-      icon: fas fa-book
-      url: https://volantis.js.org/getting-started/
     - name: 博文
       icon: fas fa-rss
-      url: https://volantis.js.org/archives/
-    - name: 示例
-      icon: fas fa-play-circle
-      url: https://volantis.js.org/examples/
-    - name: 源码
-      icon: fas fa-file-code
-      url: https://github.com/xaoxuu/hexo-theme-volantis/
-      rel: external nofollow noopener noreferrer
-      target: _blank
-    - name: 鸣谢
-      icon: fas fa-handshake
-      url: https://volantis.js.org/contributors/
+      url: /
+    - name: 项目
+      icon: fas fa-code-branch
+      url: projects/
+    - name: 友链
+      icon: fas fa-link
+      url: friends/
+      rel: nofollow
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
+      rel: nofollow
 
 
 # Navigation Bar
@@ -198,7 +195,7 @@ meta:
   # 默认文章作者（可在front-matter中覆盖）
   author:
     avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
-    name: Mr. X
+    name: hiedanoakyuu
     url: https://xaoxuu.com
   # 文章创建日期
   date:
